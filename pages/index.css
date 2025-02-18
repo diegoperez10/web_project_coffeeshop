@@ -109,17 +109,17 @@
   justify-content: space-between;
   margin-top: auto;
   z-index: 1;
+  margin-bottom: 40px;
 }
 
-.header__horario{
+.header__paragraph{
   margin-left: 80px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   
 }
 
-.header__address{
+.header__paragraph:last-child{
   margin-right: 80px;
-  margin-bottom: 40px;
   align-self: flex-end;
 }
 
