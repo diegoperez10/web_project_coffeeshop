@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  border: none;
 }
 
 .page {
@@ -193,3 +194,121 @@
   color: #fff;
 
 }
+/* Seccion Reservas */
+
+.reservation{
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg); 
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.reservation__title{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.reservation__form-fieldset{
+
+
+
+}
+
+.reservation__form{
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+  justify-content: space-between;
+  gap: 32px;
+  /* padding-bottom: 120px; */
+  margin: auto;
+  align-items: center;
+
+  /* margin-right: auto; */
+}
+
+
+
+.reservation__form-label{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.reservation__form-input{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  /* no aplicar al ultimo */
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: start;
+  width: 100%;
+  border-radius: 4px;
+  border-color: #838383;
+}
+  .reservation__form-input:not(:last-child) {
+    margin-bottom: 32px;
+}
+
+
+
+.form__button{
+  border-radius: 4px;
+  background-color: #2f80ed;
+  max-width: 385px;
+  height: 60px;
+  width: 100%;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* padding: 6px 1px; */
+
+
+  color: #fff;
+}
+
+.form__button:hover{
+  opacity: 70%;
+}
+
+
+.checkbox__text-modified{
+  font-family: Inter, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__form-check{
+
+
+
+  margin-top: 32px;
+  margin-bottom: 120px;
+  width: 20px;
+  height: 20px;
+  margin-right:12px ;
+
+}
+
