@@ -210,10 +210,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-  margin-right: 0;
+  margin: 0 auto 80px;
   padding-top: 100px;
   padding-bottom: 80px;
   display: flex;
