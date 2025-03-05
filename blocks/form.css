@@ -1,0 +1,41 @@
+.form__button {
+    border-radius: 4px;
+    background-color: #2f80ed;
+    max-width: 385px;
+    height: 60px;
+    width: 100%;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* padding: 6px 1px; */
+
+
+    color: #fff;
+}
+
+.form__button:hover {
+    opacity: 70%;
+}
+
+
+.checkbox__text-modified {
+    font-family: Inter, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.reservation__form-check {
+
+
+
+    margin-top: 32px;
+    margin-bottom: 120px;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+
+}
