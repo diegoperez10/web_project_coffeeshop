@@ -10,16 +10,8 @@
     font-size: 16px;
     line-height: 20px;
     /* padding: 6px 1px; */
-
-
     color: #fff;
 }
-
-.form__button:hover {
-    opacity: 70%;
-}
-
-
 .checkbox__text-modified {
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
@@ -27,3 +19,9 @@
     font-size: 16px;
     line-height: 20px;
 }
+
+.form__button:hover {
+    opacity: 70%;
+}
+
+
