@@ -20,22 +20,3 @@
 }
 
 
-.checkbox__text-modified {
-    font-family: Inter, Arial, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.reservation__form-check {
-
-
-
-    margin-top: 32px;
-    margin-bottom: 120px;
-    width: 20px;
-    height: 20px;
-    margin-right: 12px;
-
-}
